@@ -1,0 +1,37 @@
+.main-section > header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#navbar > header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#navbar > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+@media (min-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  #navbar {
+    margin-right: 1%;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar {
+    margin-right: 0;
+  }
+}
